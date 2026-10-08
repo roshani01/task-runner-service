@@ -1,7 +1,7 @@
 """
 scheduler.py — the core task execution engine.
 
-Responsibilities:
+Responsibilities:   
 - Find tasks whose dependencies have all succeeded
 - Respect the global concurrency limit (asyncio.Semaphore)
 - Simulate task execution with configurable duration + failure rate
