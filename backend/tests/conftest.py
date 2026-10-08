@@ -6,7 +6,7 @@ We create a fresh schema for each test session and truncate tables between tests
 This is simpler and more realistic than mocking the DB layer.
 
 Set TEST_DATABASE_URL in .env or environment to override.
-"""
+"""  
 import asyncio
 import os
 
