@@ -11,7 +11,7 @@ import time
 from unittest.mock import AsyncMock, patch
 
 import pytest
-
+ 
 from app.core.config import settings
 from app.services import scheduler as sched_module
 from app.services.scheduler import _dispatch_ready_tasks, get_semaphore, startup_recovery
