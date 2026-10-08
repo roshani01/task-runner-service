@@ -1,6 +1,6 @@
 # Design
 
-## What the service does
+## What the service does  
 
 The task runner accepts batches of tasks, resolves their dependencies, and executes them respecting a global concurrency limit. Tasks are persisted in PostgreSQL so they survive process restarts. The simulated work is an `asyncio.sleep` combined with a configurable random failure probability — the task runner itself, not the document processing, is what this project is demonstrating.
 
